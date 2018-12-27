@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="full-page">
+<head>
+    <meta charset="UTF-8">
+    <title>ST CORE TECHNOLOGY</title>
+    <meta name="google-site-verification" content="dVb507WU0uXAuiNANzyIpmGRdQ2VCdSCkciOiNbfot0"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="full-page">
+<div class="main login-box" style="overflow: auto">
+    <div class="login-section">
+        <div class="login-container">
+            <a href="/core/index.html"><img src="img/stct_logo_size_2.png" alt="" class="login-logo"></a>
+            <form action="" method="post" class="login">
+                <label for="email">Username</label>
+                <input class="input-box" type="text" id="email" required>
+                <label for="password">Password</label>
+                <input class="input-box" type="password" id="password" required>
+                <p class="forget"><a href="#">Forgot?</a></p>
+                <input type="submit" id="login-btn" value="Login">
+            </form>
+            <p class="sign">Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+    </div>
+    <h1 class="login-title">
+        Blockchain <br>
+        Technology <br>
+        Meets <br>
+        Creativity
+    </h1>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $(function () {
+        var autoFont = function () {
+            $(".login-box h1").css('font-size', Math.max(Math.min($("body").width() / (1.1 * 15))));
+        };
+        if (window.innerWidth < 2200 && window.innerWidth > 800) {
+            autoFont();
+        }
+        $(window).resize(function () {
+            if (window.innerWidth < 2200 && window.innerWidth > 800) {
+                autoFont();
+            }
+        });
+    });
+</script>
+</body>
+</html>
