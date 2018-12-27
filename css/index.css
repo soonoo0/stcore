@@ -699,7 +699,7 @@
 
 body {
     overflow: hidden;
-//background: #000; //#15051C;
+/*//background: #000; //#15051C;*/
 }
 
 .loaded .bg { opacity: 1; }
@@ -883,4 +883,13 @@ input::placeholder {
 
 .fr {
     float: right;
+}
+
+.sign #password {
+    border: 1px solid #00DD1C;
+    color: #00DD1C;
+}
+
+.pass-text {
+    color: #00DD1C;
 }
