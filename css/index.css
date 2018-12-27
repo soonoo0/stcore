@@ -130,7 +130,7 @@
         left: 40px;
         /*margin-top: 150px;*/
         /*margin-left: 30px;*/
-        margin-top: 90px;
+        margin-top: 100px;
         color: #fff;
         font-size: 100px;
     }
@@ -202,7 +202,7 @@
 .circle {
     position: fixed;
     left: 50px;
-    bottom: 330px;
+    bottom: 50px;
     width: 15%;
     border-radius: 50% 50%;
     text-align: center;
@@ -697,10 +697,9 @@
     background-size: cover;
 }
 
-body {
-    overflow: hidden;
-/*//background: #000; //#15051C;*/
-}
+/*body {*/
+    /*overflow: hidden;*/
+/*}*/
 
 .loaded .bg { opacity: 1; }
 
@@ -720,8 +719,8 @@ polygon {
     opacity: 0;
 
     transform-origin: center center;
-// transition: 0.25s fill linear,
-//             0.25s stroke linear;
+    transition: 0.25s fill linear,
+             0.25s stroke linear;
 }
 
 .login-box h1 {
@@ -745,7 +744,7 @@ polygon {
 }
 
 .login-section .login-container {
-    width: 500px;
+    width: 430px;
     margin: 0 auto;
 }
 
@@ -836,6 +835,10 @@ input::placeholder {
 
 ***/
 
+.sign-section {
+    min-height: 900px;
+}
+
 .login-section .sign label {
     font-size: 15px;
     margin-top: 30px;
@@ -885,11 +888,11 @@ input::placeholder {
     float: right;
 }
 
-.sign #password {
-    border: 1px solid #00DD1C;
-    color: #00DD1C;
-}
+/*.sign #password {*/
+    /*border: 1px solid #00DD1C;*/
+    /*color: #00DD1C;*/
+/*}*/
 
-.pass-text {
-    color: #00DD1C;
-}
+/*.pass-text {*/
+    /*color: #00DD1C;*/
+/*}*/
