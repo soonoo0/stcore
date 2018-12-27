@@ -204,7 +204,6 @@
     left: 50px;
     bottom: 330px;
     width: 15%;
-    height: auto;
     border-radius: 50% 50%;
     text-align: center;
     margin: 0 auto;
@@ -233,6 +232,10 @@
         font-size: 15px;
     }
 
+    #tech-page-circle p {
+        font-size: 13px;
+    }
+
 }
 
 @media (max-width: 1768px) and (min-width: 769px) {
@@ -247,7 +250,9 @@
         top: 100px;
         left: 18%;
         width: 65%;
-        height: auto;
+        padding-right: 0;
+        max-height: 460px;
+        min-height: 450px;
     }
 
     .circle p {
@@ -271,9 +276,18 @@
     .circle {
         position: absolute;
         top: 100px;
-        left: 0;
+        left: 10%;
+        width: 80%;
+        padding-right: 0;
+        max-height: 550px;
+        min-height: 410px;
+    }
+}
+
+@media (max-width: 465px) {
+    .circle {
         width: 100%;
-        height: auto;
+        left: 0;
     }
 }
 
