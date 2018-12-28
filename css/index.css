@@ -242,6 +242,12 @@
 
 }
 
+#white-page-circle p,
+#news-page-circle p,
+#mining-page-circle p {
+    font-size: 17px;
+}
+
 @media (max-width: 1768px) {
     #main-page-circle {
         display: none;
@@ -257,7 +263,7 @@
 @media (max-width: 768px) {
     .circle {
         position: absolute;
-        top: 100px;
+        top: 60px;
         left: 18%;
         width: 65%;
         padding-right: 0;
@@ -497,6 +503,11 @@
     width: 100%;
     height: 200px;
     background: #21A35D;
+}
+
+.content .news-img img {
+    width: 100%;
+    height: 100%;
 }
 
 .content .news {
