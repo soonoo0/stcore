@@ -149,7 +149,7 @@
     .main .main-title {
         position: relative;
         font-size: 60px;
-        margin-top: 90px;
+        margin-top: 160px;
         margin-left: 15px;
         color: #fff;
     }
@@ -280,6 +280,7 @@
     }
 
     #main-page-circle {
+        top: 120px;
         left: 0;
         width: 100%;
     }
@@ -310,11 +311,6 @@
         padding-right: 0;
         max-height: 550px;
         min-height: 410px;
-    }
-
-    #main-page-circle {
-        left: 0;
-        width: 100%;
     }
 }
 
@@ -565,6 +561,10 @@
     padding: 20px 20px 40px 0;
 }
 
+.pay-img-top {
+    padding: 20px 20px 40px 20px;
+}
+
 .pdf-link {
     display: block;
     text-align: center;
@@ -714,6 +714,10 @@
 
     p {
         font-size: 15px !important;
+    }
+
+    .pay-img-top {
+        padding: 20px 10px 40px 10px;
     }
 }
 

@@ -515,14 +515,14 @@
         </div>
         <div class="gray-box">
             <div class="container ani">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <img src="img/pay-main-1.png" class="pay-img" alt="pay">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 p-0">
+                    <img src="img/pay-main-1.png" class="pay-img-top" alt="pay">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <img src="img/pay-main-2.png" class="pay-img" alt="pay">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 p-0">
+                    <img src="img/pay-main-2.png" class="pay-img-top" alt="pay">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <img src="img/pay1.png" class="pay-img" alt="pay">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 p-0">
+                    <img src="img/pay1.png" class="pay-img-top" alt="pay">
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -729,6 +729,7 @@
                         $('.header').css('background', '#fff');
                     }
                 });
+                $('#main-page-circle').css('display', 'none');
                 $('#' + id + '-circle').css('display', 'flex');
                 $('.content').css('display', 'block');
                 $('.color').css('color', $(this).attr('data-target'));
