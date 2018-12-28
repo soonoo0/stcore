@@ -35,7 +35,7 @@
     }
 
     div {
-        padding-left: 0!important;
+        padding-left: 0 !important;
     }
 }
 
@@ -102,7 +102,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    cursor: default!important;
+    cursor: default !important;
 }
 
 .main .header .lang-line img {
@@ -186,16 +186,16 @@
 }
 
 /*.content .top-box .title .circle {*/
-    /*width: 200px;*/
-    /*height: 200px;*/
-    /*border-radius: 50% 50%;*/
-    /*text-align: center;*/
-    /*margin: 0 auto;*/
-    /*vertical-align: center;*/
-    /*font-size: 10px;*/
-    /*color: #fff;*/
-    /*padding: 50px 20px 0;*/
-    /*line-height: 1.8;*/
+/*width: 200px;*/
+/*height: 200px;*/
+/*border-radius: 50% 50%;*/
+/*text-align: center;*/
+/*margin: 0 auto;*/
+/*vertical-align: center;*/
+/*font-size: 10px;*/
+/*color: #fff;*/
+/*padding: 50px 20px 0;*/
+/*line-height: 1.8;*/
 /*}*/
 
 .circle {
@@ -209,7 +209,6 @@
     vertical-align: center;
     font-size: 11px;
     color: #fff;
-    padding: 0 20px 0;
     line-height: 1.8;
     display: none;
     z-index: 50;
@@ -218,7 +217,6 @@
 
 #main-page-circle {
     display: block;
-    overflow: hidden;
     z-index: 0;
     padding: 0;
 }
@@ -250,15 +248,22 @@
     font-size: 17px;
 }
 
-@media (max-width: 1768px) {
+@media (min-width: 1769px) {
     #main-page-circle {
-        display: none;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1768px) {
+
+    .main-title {
+        z-index: 2;
     }
 }
 
 @media (max-width: 1768px) and (min-width: 769px) {
     .dis-none-c {
-        display: none!important;
+        display: none !important;
     }
 }
 
@@ -271,6 +276,11 @@
         padding-right: 0;
         max-height: 460px;
         min-height: 450px;
+    }
+
+    #main-page-circle {
+        left: 0;
+        width: 100%;
     }
 
     .circle p {
@@ -293,12 +303,17 @@
 @media (max-width: 565px) {
     .circle {
         position: absolute;
-        top: 100px;
+        top: 50px;
         left: 10%;
         width: 80%;
         padding-right: 0;
         max-height: 550px;
         min-height: 410px;
+    }
+
+    #main-page-circle {
+        left: 0;
+        width: 100%;
     }
 }
 
@@ -411,7 +426,7 @@
 
 .content .mining-img .mining-gray {
     position: absolute;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
     top: 0;
     left: 0;
     height: 100%;
@@ -484,8 +499,8 @@
 
 .content .ist-text {
     margin-top: 15px;
-    font-size: 14px!important;
-    line-height: 1.7!important;
+    font-size: 14px !important;
+    line-height: 1.7 !important;
 }
 
 .content .ist-picto {
@@ -517,22 +532,22 @@
 }
 
 .content .news p {
-    padding-left: 0!important;
+    padding-left: 0 !important;
 }
 
 .content .news .news-title {
     margin-top: 20px;
-    font-size: 18px!important;
+    font-size: 18px !important;
 }
 
 .content .news .news-text {
-    font-size: 14px!important;
+    font-size: 14px !important;
     line-height: 1.3;
 }
 
 .content .news .date {
     margin-top: 20px;
-    font-size: 14px!important;
+    font-size: 14px !important;
 }
 
 .gray-box {
@@ -635,7 +650,7 @@
 }
 
 .dis-none {
-    display: none!important;
+    display: none !important;
 }
 
 @media (max-width: 1178px) {
@@ -688,16 +703,16 @@
     }
 
     .content .text p {
-        padding-left: 0!important;
+        padding-left: 0 !important;
         margin-top: 20px;
     }
 
     h4 {
-        font-size: 18px!important;
+        font-size: 18px !important;
     }
 
     p {
-        font-size: 15px!important;
+        font-size: 15px !important;
     }
 }
 
@@ -728,10 +743,12 @@
 }
 
 /*body {*/
-    /*overflow: hidden;*/
+/*overflow: hidden;*/
 /*}*/
 
-.loaded .bg { opacity: 1; }
+.loaded .bg {
+    opacity: 1;
+}
 
 .bg {
     position: absolute;
@@ -750,7 +767,7 @@ polygon {
 
     transform-origin: center center;
     transition: 0.25s fill linear,
-             0.25s stroke linear;
+    0.25s stroke linear;
 }
 
 .login-box h1 {
@@ -790,7 +807,7 @@ input::placeholder {
 }
 
 .login-section .login-container label {
-    font-family: 'Frutiger-L', sans-serif!important;
+    font-family: 'Frutiger-L', sans-serif !important;
 }
 
 .login-section .login-container .login .input-box:first-of-type {
@@ -919,10 +936,10 @@ input::placeholder {
 }
 
 /*.sign #password {*/
-    /*border: 1px solid #00DD1C;*/
-    /*color: #00DD1C;*/
+/*border: 1px solid #00DD1C;*/
+/*color: #00DD1C;*/
 /*}*/
 
 /*.pass-text {*/
-    /*color: #00DD1C;*/
+/*color: #00DD1C;*/
 /*}*/
