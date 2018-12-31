@@ -57,7 +57,7 @@ time, mark, audio, video {
 
 input::placeholder {
     color: #111;
-    font-family: 'Frutiger-R', 'korea-light', 'korea-light';
+    font-family: 'Frutiger-R', 'Frutiger-L', 'Frutiger-L';
 }
 
 /* HTML5 display-role reset for older browsers */

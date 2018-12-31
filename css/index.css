@@ -713,7 +713,7 @@
         font-size: 18px !important;
     }
 
-    p {
+    .box p {
         font-size: 15px !important;
     }
 
@@ -736,8 +736,15 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    min-height: 900px;
     overflow: hidden;
+}
+
+.m-h600 {
+    min-height: 600px;
+}
+
+.m-h900 {
+    min-height: 900px;
 }
 
 .login-box {
@@ -841,13 +848,23 @@ input::placeholder {
     font-size: 13px;
 }
 
-.login-section .login-container #login-btn {
+.login-section .login-container #login-btn,
+.login-section .login-container .login-move {
     margin-top: 50px;
     border: 1px solid #888;
     color: #fff;
     padding: 13px;
     background: #000;
     width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Frutiger-L', sans-serif;
+}
+
+.login-section .login-container .login-move a {
+    color: #fff;
+    font-family: 'Frutiger-L', sans-serif;
+    font-weight: lighter;
 }
 
 .login-section .login-container .sign {
@@ -888,7 +905,7 @@ input::placeholder {
 
 ***/
 
-.sign-section {
+.sign-section-size {
     min-height: 900px;
 }
 
@@ -922,6 +939,7 @@ input::placeholder {
 .login-section .sign .pass-text {
     margin-top: 8px;
     font-family: 'Frutiger-L', sans-serif;
+    font-weight: lighter;
 }
 
 .login-section .login-container .move-login {
@@ -937,8 +955,20 @@ input::placeholder {
     font-family: 'Frutiger-L', sans-serif;
 }
 
+@media (max-width: 768px) {
+    .m-small {
+        font-size: 12px;
+    }
+}
+
 .fr {
     float: right;
+}
+
+.mail {
+    line-height: 1.5;
+    font-weight: lighter;
+    font-family: 'Frutiger-L', sans-serif;
 }
 
 /*.sign #password {*/
