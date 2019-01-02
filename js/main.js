@@ -11,6 +11,7 @@ $(function () {
 
     $(".nav-menu .btn-on").click(function () {
         var id = $(this).attr('id');
+        // 최초 메뉴 클릭 시 메뉴가 열리고 그 후 부터는 화면 안에 내용이 전환 된다.
         if (menuSwitch == false) {
             menuSwitch = true;
             $('.nav-menu .btn-on, .nav-menu .btn-on a, .nav-menu .lang li a').stop().animate({color: '#000'}, 1500, function () {
