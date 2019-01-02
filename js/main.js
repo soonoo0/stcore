@@ -59,6 +59,10 @@ $(function () {
         }
     });
 
+    $("#current-lang").click(function () {
+       $("#lang-list").stop().slideToggle();
+    });
+
     // 마우스 오버시 데스트탑과 모바일 버전 별도의 메뉴 스타일 변경
     $('.nav-menu .btn-on').mouseover(function () {
         var color = $(this).attr('data-target');

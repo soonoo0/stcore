@@ -27,6 +27,7 @@
 <script src="js/three.min.js"></script>
 <script src="js/DragControls.js"></script>
 <script>
+    // 메인 폰트 사이즈
     $(function () {
         var autoFont = function () {
             $("h1").css('font-size', Math.max(Math.min($("body").width() / (1.2 * 10))));
@@ -40,6 +41,8 @@
             }
         });
     });
+
+    // 이미지와 각 이미지의 링크
     var SPEED = 0.02,
         CAMERA_DISTANCE = 7,
         IMAGE_SIZE = 3,
