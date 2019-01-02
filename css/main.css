@@ -65,9 +65,9 @@ header .right-side li a {
 }
 
 .center .center-logo {
-    width: 60%;
+    width: 55%;
     max-width: 500px;
-    min-width: 200px;
+    min-width: 150px;
     margin: 0 auto;
 }
 
