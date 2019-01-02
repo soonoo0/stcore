@@ -108,6 +108,7 @@
 
 .main .header .lang #current-lang {
     position: relative;
+    z-index: 99;
 }
 
 .main .header .lang-line {

@@ -15,7 +15,8 @@ $(function () {
         if (menuSwitch == false) {
             menuSwitch = true;
             // 헤더 부분의 스타일이 변경 되며, 모바일에서는 다르게 작동한다.
-            $('.nav-menu .btn-on, .nav-menu .btn-on a, .nav-menu .lang li a').stop().animate({color: '#000'}, 1500, function () {
+            $('.nav-menu .btn-on, .nav-menu .btn-on a, .nav-menu .lang li a, #current-lang, #lang-list li').stop().animate({color: '#000'}, 1500, function () {
+                $('#lang-list').css("border", "1px solid #000");
                 $('.nav-menu').css('background', '#fff');
                 $('.menu-bar').css('color', '#000');
                 $('#white-logo').addClass('dis-none');
